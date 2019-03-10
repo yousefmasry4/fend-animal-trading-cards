@@ -1,36 +1,43 @@
 /* add your CSS here */
 body {
   background-color: #fffbf1;
+  border: solid black 2px;
 }
 h1{
+    border: solid black 2px;
 	font-size:150px;
 	margin-top: 10.4px;
-	margin-bottom: -0.2%;
-	margin-left:5%;
+	margin-right:3%;
+	margin-left:3%;
 }
+
 img{
-  height: 300px;
-/*width: 300px;*/
-  margin-left:30%;
-  border-radius: 4px;
+  width:300px;
+  margin-left:25%;
   border: solid black 2px;
-  margin: 5px;
 }
 span{
   font-weight: 900;
 }
-.animal-info{
-	border: 2px solid #7b7975;
-}
-#card{
+#card .animal-info{
+ /* border: 2px solid #7b7975;*/
+  margin-left:3%;
+  margin-right:3%;
   border: solid black 2px;
   border-radius: 5px;
-  box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.17);
-  padding: 2px;
-  margin: 7px;
-  color: white;
-  background-color: rgba(77, 51, 25, 0.69);
+  margin-bottom: 31px;
+/*  padding: 2px;*/
+/*  margin: 7px;*/
 }
 #facts{
 	list-style-type: none;
+}
+#interesting-fact{
+	font-style: italic;
+    margin-left: 36px;
+  	margin-right:3%;
+}
+#summary{
+	 margin-left: 36px;
+  	margin-right:3%; 
 }
