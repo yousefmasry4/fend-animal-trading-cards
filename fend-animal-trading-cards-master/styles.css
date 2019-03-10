@@ -1,36 +1,55 @@
 /* add your CSS here */
+ul {
+  list-style: none;
+  padding: 0px;
+}
 body {
-  background-color: #fffbf1;
-  border: solid black 2px;
+  background-color: #fffbf1;margin-left: 6px;margin-right: 365px;padding-right: 111px;
+
 }
 h1{
-    border: solid black 2px;
-	font-size:150px;
-	margin-top: 10.4px;
-	margin-right:3%;
-	margin-left:3%;
+  padding-left: 10px;
+  font-family: Calibri, Candara, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 img{
-  width:300px;
-  margin-left:25%;
-  border: solid black 2px;
+  width: 300px;
+  border: thin solid gray;
+  border-radius: 6px;
+  display: block;
+  margin: auto;
 }
-span{
-  font-weight: 900;
+span {
+  font-weight: bold;
+  }
+
+.animal-info{
+  width: 320px;
+  border: thin solid;
+  box-shadow: 5px 5px gray;
+   padding-right: 9%;padding-left: 5%;padding-bottom: 3%;
+background:#589ca7 url('http://www.dreamtemplate.com/dreamcodes/bg_images/color/c12.jpg') no-repeat center top;
 }
-#card .animal-info{
- /* border: 2px solid #7b7975;*/
-  margin-left:3%;
-  margin-right:3%;
-  border: solid black 2px;
-  border-radius: 5px;
-  margin-bottom: 31px;
-/*  padding: 2px;*/
-/*  margin: 7px;*/
+#card{
+  width: 320px;
+  border: thin solid;
+  margin-right:5px;
+  padding: 5px;
+
 }
 #facts{
 	list-style-type: none;
+    font-style: italic;
+     text-align: justify;
+}
+.info {
+  border: thin solid gray;
+  border-radius: 6px;
+  margin: 6px;
+  text-align:justify;
+  font-family: Calibri, Candara, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 13px;
+  padding: 0px 15px 0px 15px;
 }
 #interesting-fact{
 	font-style: italic;
